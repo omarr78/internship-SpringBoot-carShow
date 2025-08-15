@@ -1,0 +1,102 @@
+[
+  {
+    "thumbnail": "Engines/abc123.jpeg",
+    "makeId": 1,
+    "modelId": 101,
+    "make": { "id": 1, "nameAr": "تويوتا", "nameEn": "Toyota" },
+    "model": { "id": 101, "nameAr": "كورولا", "nameEn": "Corolla" },
+    "year": 2023,
+    "price": 950000,
+    "carStatus": 1
+  },
+  {
+    "thumbnail": "Engines/def456.jpeg",
+    "makeId": 2,
+    "modelId": 202,
+    "make": { "id": 2, "nameAr": "بي إم دبليو", "nameEn": "BMW" },
+    "model": { "id": 202, "nameAr": "X5", "nameEn": "X5" },
+    "year": 2024,
+    "price": 4200000,
+    "carStatus": 1
+  },
+  {
+    "thumbnail": "Engines/ghi789.jpeg",
+    "makeId": 3,
+    "modelId": 303,
+    "make": { "id": 3, "nameAr": "مرسيدس", "nameEn": "Mercedes" },
+    "model": { "id": 303, "nameAr": "S500", "nameEn": "S500" },
+    "year": 2023,
+    "price": 6800000,
+    "carStatus": 1
+  },
+  {
+    "thumbnail": "Engines/jkl012.jpeg",
+    "makeId": 4,
+    "modelId": 404,
+    "make": { "id": 4, "nameAr": "أودي", "nameEn": "Audi" },
+    "model": { "id": 404, "nameAr": "Q7", "nameEn": "Q7" },
+    "year": 2022,
+    "price": 3700000,
+    "carStatus": 1
+  },
+  {
+    "thumbnail": "Engines/mno345.jpeg",
+    "makeId": 5,
+    "modelId": 505,
+    "make": { "id": 5, "nameAr": "هيونداي", "nameEn": "Hyundai" },
+    "model": { "id": 505, "nameAr": "سوناتا", "nameEn": "Sonata" },
+    "year": 2023,
+    "price": 1200000,
+    "carStatus": 1
+  },
+  {
+    "thumbnail": "Engines/pqr678.jpeg",
+    "makeId": 6,
+    "modelId": 606,
+    "make": { "id": 6, "nameAr": "كيا", "nameEn": "Kia" },
+    "model": { "id": 606, "nameAr": "سبورتاج", "nameEn": "Sportage" },
+    "year": 2024,
+    "price": 1350000,
+    "carStatus": 1
+  },
+  {
+    "thumbnail": "Engines/stu901.jpeg",
+    "makeId": 7,
+    "modelId": 707,
+    "make": { "id": 7, "nameAr": "نيسان", "nameEn": "Nissan" },
+    "model": { "id": 707, "nameAr": "باترول", "nameEn": "Patrol" },
+    "year": 2022,
+    "price": 3100000,
+    "carStatus": 1
+  },
+  {
+    "thumbnail": "Engines/vwx234.jpeg",
+    "makeId": 8,
+    "modelId": 808,
+    "make": { "id": 8, "nameAr": "بورش", "nameEn": "Porsche" },
+    "model": { "id": 808, "nameAr": "كايين", "nameEn": "Cayenne" },
+    "year": 2023,
+    "price": 5200000,
+    "carStatus": 1
+  },
+  {
+    "thumbnail": "Engines/yz1234.jpeg",
+    "makeId": 9,
+    "modelId": 909,
+    "make": { "id": 9, "nameAr": "شفروليه", "nameEn": "Chevrolet" },
+    "model": { "id": 909, "nameAr": "تاهو", "nameEn": "Tahoe" },
+    "year": 2024,
+    "price": 2700000,
+    "carStatus": 1
+  },
+  {
+    "thumbnail": "Engines/abc567.jpeg",
+    "makeId": 10,
+    "modelId": 1001,
+    "make": { "id": 10, "nameAr": "لكزس", "nameEn": "Lexus" },
+    "model": { "id": 1001, "nameAr": "LX 600", "nameEn": "LX 600" },
+    "year": 2023,
+    "price": 6500000,
+    "carStatus": 1
+  }
+]
