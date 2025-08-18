@@ -14,7 +14,7 @@ EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
 
-# docker build -t your-dockerhub-username/carshow:1.0 .
-# docker run -p 5000:8080 your-dockerhub-username/carshow:1.0
+# docker build -t omarrnabil/carshow:1.0 .
+# docker run -p 5000:8080 omarrnabil/carshow:1.0
 # docker login
 # docker push omarrnabil/carshow:1.0
