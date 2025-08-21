@@ -251,8 +251,16 @@ public class CarService{
         carDtos.forEach(car -> car.setId(++idCounter));
     }
 
-    public List<CarDto> getCars(){
-        return carDtos;
+    public List<CarDto> getCars(String modelName) {
+        if(modelName == null || modelName.isBlank()) {
+            return carDtos;
+        }
+        else{
+            return carDtos.stream()
+                    .filter(car -> car.getModel().getNameEn().equals(modelName))
+                    .toList();
+        }
+
     }
 
     public CarDto getMostExpensiveCar() {
@@ -276,9 +284,5 @@ public class CarService{
         carDtos.removeIf(car -> car.getId() == id);
     }
 
-    public List<CarDto> getCarByModelName(String modelName) {
-        return carDtos.stream()
-                .filter(car -> car.getModel().getNameEn().equals(modelName))
-                .toList();
-    }
+
 }

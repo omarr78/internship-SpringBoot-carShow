@@ -18,14 +18,9 @@ public class CarController {
 
     @GetMapping
     public List<CarDto> retrieveCars(
-            @RequestParam(name = "modelName",required = false) String modelName
-    ) {
-        if(modelName == null || modelName.isBlank()) {
-            return carService.getCars();
-        }
-        else{
-            return carService.getCarByModelName(modelName);
-        }
+            @RequestParam(name = "modelName",required = false) String modelName)
+    {
+        return carService.getCars(modelName);
     }
 
     @GetMapping("/{id}")
@@ -43,7 +38,7 @@ public class CarController {
         carService.addCar(carDto);
     }
 
-    @DeleteMapping("{id}")
+    @DeleteMapping("/{id}")
     public void deleteCar(@PathVariable long id) {
         carService.deleteCar(id);
     }
